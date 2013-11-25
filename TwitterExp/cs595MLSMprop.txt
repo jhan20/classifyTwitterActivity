@@ -1,0 +1,5 @@
+debug=true
+oauth.consumerKey=sNcJ3pAsttreTFvhnAAEhw
+oauth.consumerSecret=Y1wG2qUtWcVHBoEr79A1xe4Fy2D7NBtScv6jrd5msFg
+oauth.accessToken=104300543-mF5fs1Nt5NGBvK6UG2VPP5cEg2bGpTb1d9D1sSBk
+oauth.accessTokenSecret=FU4p0D6EVYieEDR08I0K06wMo880accv2uugXChNY

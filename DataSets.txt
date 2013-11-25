@@ -1,0 +1,27 @@
+FTW:
+<UserID> <username> <totalTweets> <IsVerfied> <ListedCount> <followers> <friends> <TweetID since> <Timestamp>
+
+
+twDataCounts
+User <username> Id <userId> at Time <TimeStamp> : <TweetID> <RTCount> <FvCount> 
+
+RTData 
+<TweetId> [<RTCount>, <RTCount>, <RTCount>, … ]
+
+FvData 
+<TweetId> [<RTCount>, <RTCount>, <RTCount>, … ]
+
+RT+FvData 
+<TweetId> [<Sum(RT,Fv)>, <Sum(RT,Fv)>, <Sum(RT,Fv)>, … ]
+
+
+
+
+
+Possible collections
+
+totalTweets isVerfiedBoolean listedCount followers friends [followers:friends] firstTweetDay firstTweetHour tweetID [. . . .]
+
+
+totalTweets isVerfiedBoolean listedCount followers friends [followers:friends] firstTweetDay firstTweetHour tweetID [. . . .] ClusterID															
+tweetId [<> <> <> <> <> <> <> <>] <ClusterID> <number>

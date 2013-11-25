@@ -1,0 +1,54 @@
+paper Compares Influence and Susceptance.
+
+Works on a representative sample of 1.3 million Fb Users. As a sample of everyone. Not everyone being the sample ?
+
+Influence grows in non susceptible group.
+
+
+Experiment : Follow people on the adoption rate of an advertisement over Facebook. Follow the adoption rate. Target the advertisement as required by the experiment. 
+
+Other network studies confuse Estimation with  
+Homophilly. tendency for individuals to choose friends with similar interests.
+Confounding effects, a connected group being exposed to same content.
+Simultaneity.. connected people acting at the same time. 
+…heterogeneity ? 
+
+
+Data was from FB subset.
+44 days.
+7730 adopters
+41686 stimulis.
+976 adoptions.
+
+They explain randomization removes Hommophily. 
+They also do not agree with latent homophile being present because of randomization..
+
+They tailor the target message, helping to eliminating heterogeneity  
+
+Boils down to influence mediating messages received.
+
+
+
+Age, Gender and Commitment.
+
+
+Formula (1)
+λj is the hazard of peer j of application user i adopting the application
+λ0(t) represents the baseline hazard
+Xi represents a set of individual attributes of an application user i
+Xj represents a set of individual attributes of peer j
+Nj(t) represents the number of notifications received by peer j of application user i as a function of time,
+βN estimates the effect of receiving a notification on the likelihood of peer adoption (if everyhiting between sender and receiver are constant)
+
+β i spont estimates the propensity for peers of user i with attributes Xi to spontaneously adopt in the absence of influence (Nj = 0)
+
+β j spont estimates the propensity for peer j with attributes Xjto spontaneously adopt in the absence of influence (Nj = 0),
+
+βinfl estimates the impact of user i’s attributes on i’s ability to influence peer j to adopt the application above and beyond j’s propensity to adopt spontaneously
+
+βsusc estimates the impact of j’s attributes on j’s likelihood to adopt as a result of influence above and beyond j’s propensity to adopt spontaneously
+
+Formula(2)
+S(Xi, Xj) represents a set of dyadic covariates that characterize the joint attributes of the sender-recipient pair
+βspont estimates the effect of a dyadic relationship between application user i and peer j on the tendency for j to adopt spontaneously.
+βinfl estimates the effect of the dyadic attribute (e.g., “same age”) on the degree to which i influences j to adopt, above and beyond j’s likelihood to spontaneously adopt
