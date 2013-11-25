@@ -14,6 +14,7 @@ FvData
 RT+FvData 
 <TweetId> [<Sum(RT,Fv)>, <Sum(RT,Fv)>, <Sum(RT,Fv)>, … ]
 
+<<<<<<< HEAD
 
 
 
@@ -25,3 +26,61 @@ totalTweets isVerfiedBoolean listedCount followers friends [followers:friends] f
 
 totalTweets isVerfiedBoolean listedCount followers friends [followers:friends] firstTweetDay firstTweetHour tweetID [. . . .] ClusterID															
 tweetId [<> <> <> <> <> <> <> <>] <ClusterID> <number>
+=======
+******************
+
+RTClusterData
+<RTClusterID> RTCount RTCount RTCount … 
+
+FVClusterData
+<FvClusterID> FvCount FvCount FvCount … 
+
+RT+FvClusterData
+<RT+FVClusterID> RT+FvCount RT+FvCount RT+FvCount … 
+
+
+********************
+
+ClusterInfo 
+<Followers> <UserID> <UserName> <Friends> <isVerfied><RTFv0><TweetDay><RTClusterID><TweetHour><Fv198><friend:followers><RT0><Fv8><Fv4><RT198><FvClusterID><Fv0><RTFv8><RTFv4><UserTotalTweetCount><RTFvClusterID><tweetID><ListCount><RTFv198><RT8><RT4> 
+
+<02UserName> <01UserID> <04isVerfied><21tweetID>
+
+<00Followers> <03Friends><10friend:followers><19UserTotalTweetCount><22ListCount>
+
+<6TweetDay>
+<8TweetHour>
+
+<11RT0><25RT4><24RT8><14RT198>
+<16Fv0><13Fv4><12Fv8><9Fv198>
+<5RTFv0><18RTFv4><17RTFv8><23RTFv198>
+
+<7RTClusterID>
+<15FvClusterID>
+<20RTFvClusterID>
+
+___________________________________________
+<Threshold Time>?
+
+************************************
+************************************
+
+
+UserDetail  - RTCluster 
+UserDetail  - FvCluster 
+UserDetail  - RTFvCluster 
+
+Userdetail + RTDetails - RTCluster
+userDetails + FvDetails - FVCluster 
+userDetail + rtfvDetails -  RtFvCluser
+
+
+RT Details - RTCluster
+FV Details - FvCluster
+RtFvDetails - RtFvCluster
+
+RtFvDetails - RTCluster
+RtFvDetails - FvCluster
+
+TweetTime 
+>>>>>>> e8ab751437f19873f6d0133d68e5b259120ce02f

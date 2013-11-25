@@ -1,0 +1,83 @@
+Cluster report
+Cluster		Count
+RT0			304
+RT1			13
+RT2			6
+RT3			104
+RT4			26
+
+Fv0			255
+Fv1			54
+Fv2			21
+FV3			10
+FV4			113
+
+
+Matching <User> <TweetHour> <Time series>  <ClusterID>
+user 					RT		66.22 / 33.77		66.44/33.55
+user 					Fv		59.161/40.83 		60.26/39.73
+user 					RTFv	60.48/39.51			60.76/39.29
+
+TweetHour 				RT		67.10/32.89		00.00/00.00
+TweetHour				Fv		56.29/43.70		00.00/00.00
+TweetHour 				RTFv	55.84/44.15		00.00/00.00
+
+RTDetail1				RT		92.93/07.06		92.71/7.28
+RTDetail2				RT		93.81/6.18		93.59/6.40
+RTDetail3				RT		93.81 / 6.18		94.70/5.29
+
+FvDetail1				Fv		89.18/10.81		90.06/9,93
+FvDetail2				Fv		90.72/9.27		94.26/5.73
+FvDetail3				Fv		91.83/8.167		94.03/5.96
+
+RTFvDetail1				RTFv	90.50/9.49		90.06/9.93
+RTFvDetail2				RTFv	92.71/7.28		93.15/6.84
+RTFvDetail3				RTFv	93.37 / 6.625		93.37/6.62
+
+user + tweetHour		RT		66.22/33.77		00.00/00.00
+user + tweetHour		FV		58.71/41.28		60.04/39.95
+user + tweetHour		RTFv	56.07/43.92		60.70/39.29
+
+user + RTDetails		RT		89.1832/10.8168		94.03/5.96
+user + FvDetails		Fv		91.61/8.38		93.81/6.18
+user + RTFvDetails		RTFv	91.17/8.83		93.15/6.84
+
+tweet + RTDetails1		RT		93.37/6.62		91.39/8.67		
+tweet + RTDetails2		RT		93.81/6.18		94.26/5.73
+tweet + RTDetails3		RT		84.98/15.01		84.32/15.67		
+tweet + FvDetails1		Fv		90.06/9.93		91.61/8.38				
+tweet + FvDetails2		Fv		90.50/9.49
+tweet + FvDetails3		Fv		91.39/8.60		94.48/5.51		
+
+tweet + RTFvDetails		RTFv	93.15/6.84		92.71/7.28
+
+user+tweet+RT			RT		88.96/11.03		93.37/6.62
+user+tweet+Fv			Fv		91.61/8.38		93.37/6.62
+user+tweet+RTFv			RTFv	81.18/18.54		84.32/15.67
+
+
+
+
+
+Input features - predicted Classifier 	NaiveBaise		Simiple logistics  
+										+ / -			+ / -
+
+UserDetail  - RTCluster       		66.22 / 33.77		66.44/33.55
+UserDetail  - FvCluster 			59.161/40.83 		60.26/39.73
+UserDetail  - RTFvCluster 			60.48/39.51			60.76/39.29
+
+userDetail + RTDetails - RTCluster	89.1832/10.8168		94.03/5.96
+userDetail + RtDetails - FVCluster 						64.23/35.76
+userDetail + FvDetails - FVCluster 	91.61/8.38		93.81/6.18
+userDetail + rtfv - RtFvCluser		91.17/8.83		93.15/6.84
+
+RT Details - RTCluster				93.81 / 6.18		94.70/5.29
+FV Details - FvCluster				91.83/8.167			94.03/5.96
+RtFvDetails - RtFvCluster			93.37 / 6.625		93.37/6.62
+
+RtFvDetails - RTCluster				85.2097/14.7903		84.10/15.89
+RtFvDetails - FvCluster				79.0287/20.9713		69.75/30.24
+	
+UserDetails + RTFvDetails - RTCluster	80.57/19.426		86.97/13.02
+UserDetails + RTFvDetails - FvCluster	71.96/28.035		78.58/21.41
+
